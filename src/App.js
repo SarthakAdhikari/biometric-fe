@@ -63,7 +63,6 @@ function AppFlask() {
   };
 
   const handleRegister = async () => {
-    try {
       if (!email) return setStatus("Enter your email first.");
       setStatus("Registering...");
 
@@ -77,10 +76,7 @@ function AppFlask() {
         res.success
           ? setStatus("Registration successful!")
           : setStatus(`Error: ${res.error}`);
-      } catch (e) {
-        setStatus(`Registration failed: ${e.message}`);
-      }
-    } catch (error) {
+      } catch (error) {
       console.error("Registration error:", error);
       setStatus(`Registration failed: ${error.message}`);
       return false;
