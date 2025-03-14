@@ -119,5 +119,5 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-align: center;
-  padding-top: 24px;
+  padding: 24px 0;
 }
