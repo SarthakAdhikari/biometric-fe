@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #181819;
+}
+
+.title-decoration {
+  font-weight: 700;
+  font-size: 42px;
+  background-image: radial-gradient(
+    92% 75% at 26% 84.8%,
+    rgb(255, 216, 121) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.hawx-input {
+  appearance: none;
+  width: 435px;
+  height: auto;
+  outline: none;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1em;
+  background: var(
+    --token-7ce68db9-0723-4469-83ef-663a6e703840,
+    rgb(38, 38, 39)
+  );
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(125, 125, 125, 0.46) 0px 0px 0px 1px inset;
+}
+
+.button {
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: Inter, "Inter Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1em;
+  background: var(
+    --token-7049cce7-715e-45a0-a41e-932274474306,
+    rgb(0, 128, 243)
+  );
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  box-shadow: none;
+  width: 500px;
+}
+
+.button-sec {
+  background-color: transparent;
+}
+
+.button:hover {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.logo {
+  width: 143px;
+  height: 82px;
+  object-fit: cover;
+  padding-right: 24px;
+}
+
+.header {
+  display: flex;
+  padding-bottom: 48px;
+}
+
+.container {
+  width: 500px;
+  padding: 0 24px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 24px;
+  gap: 16px;
+}
+
+.status-message {
+  background-image: conic-gradient(
+    from 0deg at 51.7% 0%,
+    var(--token-c91a539f-e2f7-437c-bb79-b5a828f8e5cf, rgb(255, 216, 121))
+      284.40000000000003deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  padding-top: 24px;
+}
