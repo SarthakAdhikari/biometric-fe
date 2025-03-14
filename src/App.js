@@ -10,6 +10,7 @@ function AppFlask() {
   useEffect(() => {
     (async () => {
       const available =
+        // eslint-disable-next-line no-undef
         await PublicKeyCredential?.isUserVerifyingPlatformAuthenticatorAvailable();
       setBiometricsAvailable(available);
 
